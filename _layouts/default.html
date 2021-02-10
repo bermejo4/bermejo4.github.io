@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+    <link rel="icon" href="/images/Th3RedTower.png">
+    <!--<link rel="image_src" href="/images/Th3RedTower.png" />-->
+
+<meta name="description" content="The Dark Red Tower, Tech-blog written by Jaime Bermejo" />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@JaimeBermejo12">
+<meta name="twitter:title" content="The Dark Red Tower">
+<meta name="twitter:description" content="The Dark Red Tower, Tech-blog written by Jaime Bermejo">
+<meta name="twitter:creator" content="@JaimeBermejo12">
+
+
+<!--<meta name="twitter:image" content= "https://bermejo4.github.io/images/Th3RedTower.png" >-->
+<meta name="twitter:image" content="https://bermejo4.github.io/images/Th3RedTower.png" style="
+    width: 201px;
+">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="The Dark Red Tower" />
+<!--<meta property="og:type" content="website" />-->
+<!--<meta property="og:url" content=" https://bermejo4.github.io/" />-->
+<meta name="image" property="og:image" content="/images/preview.png">
+<meta property="og:image:secure_url" content="https://bermejo4.github.io/images/Th3RedTower.png"/>
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="621px" />
+<meta property="og:image:height" content="720px" />
+<meta property="og:image:alt" content="A red Tower" />
+<meta property="og:description" content="The Dark Red Tower, Tech-blog written by Jaime Bermejo" />
+
+<meta name="author" content="Jaime Bermejo">
+
+    {% include meta.html %}
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <!--<a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>-->
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img class=avat src="/images/Th3RedTower.png" /></a>
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+<div class="topnav">
+  <a href="{{ site.baseurl }}/">Home</a>
+  <a href="{{ site.baseurl }}/projects.html">Projects</a>
+  <a href="{{ site.baseurl }}/code.html">Code</a>
+  <a href="/about">About</a>
+</div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
