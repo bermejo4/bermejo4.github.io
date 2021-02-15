@@ -22,7 +22,7 @@ A la vez se crearán tres archivos ".txt" en el lugar en donde ha sido ejecutado
 Observaciones: 
 * Este script SOLO corre en Linux y no en la terminal de Mac.
 * Si no se tuviera instalado, hay que instalar el paquete "bc" porque bash no maneja numeros decimales a la hora de hacer operaciones matemáticas.
-* Si el programa ha estado ejecutandose durante mucho tiempo (por ejemplo media hora) el jitter tardará unos segundos en calcularse y mostrarse por pantalla. Red tested.
+* Si el programa ha estado ejecutandose durante mucho tiempo (por ejemplo media hora) el jitter tardará unos segundos en calcularse y mostrarse por pantalla.
 
 Este es el script:
 
