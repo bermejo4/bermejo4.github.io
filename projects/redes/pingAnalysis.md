@@ -3,7 +3,7 @@ layout: post
 title: Ping Analisis Script
 ---
 *****
-Este es un script que mediante el comando ping, el manejo de archivos y el computo de los datos que estos contienen, haya el número de paquetes enviados, el número de paquetes perdidos, el número de paquetes exitosos, la latencia de la red y el Jitter al intoducirle una dirección ip o una url.
+Este es un script que mediante el comando ping, el manejo de archivos y el computo de los datos que estos contienen, haya: el número de paquetes enviados, el número de paquetes perdidos, el número de paquetes exitosos, la latencia de la red y el Jitter al intoducirle una dirección ip o una url.
 Al ejecutar el script nos pedirá una dirección, esta dirección será a la cual vamos a hacer ping. Una vez que especifiquemos la dirección y pulsemos enter el programa empezará a correr y se imprimirá un mensaje por pantalla especificando como terminar con el programa y obtener los resultados; este mensaje dice "Teclee ctrl + c cuando desee terminar...", es decir, la combinación de teclas normal que se teclea en la terminal para la finalización de un proceso.
 Cuando el programa haya terminado se imprimirá por pantalla los siguientes resultados:
 
