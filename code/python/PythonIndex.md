@@ -3,7 +3,7 @@ layout: post
 title: Python Index 
 ---
 *****
- <a href="/code/python/FarmaciaDigital" style="
+ <a href="/code/python/farmaciaDigital" style="
     font-size: 27px;
     font-weight: 600;
     font-family: serif;
