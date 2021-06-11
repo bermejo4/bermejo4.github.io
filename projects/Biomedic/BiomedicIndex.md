@@ -20,7 +20,7 @@ title: Biomedical Engineering & Bioinformatics Index
 
 *****
 
- <a href="/projects/Biomedic/EcgComparer" style="
+ <a href="/projects/Biomedic/Tdi_project" style="
     font-size: 27px;
     font-weight: 600;
     font-family: serif;
