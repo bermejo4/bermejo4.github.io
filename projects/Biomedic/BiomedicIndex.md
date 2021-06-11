@@ -20,6 +20,14 @@ title: Biomedical Engineering & Bioinformatics Index
 
 *****
 
+ <a href="/projects/Biomedic/EcgComparer" style="
+    font-size: 27px;
+    font-weight: 600;
+    font-family: serif;
+	color: #b20400;
+"> ➡️ Digital Image Treatment Tool</a>
+
+*****
 *****
 <div style="
     background-color: darkred;
