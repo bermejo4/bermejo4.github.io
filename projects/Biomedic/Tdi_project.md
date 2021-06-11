@@ -12,7 +12,7 @@ This project has been programmed in Matlab language.
 My contributions to this project have been developing a specific tool to increase and decrease the contrast of an image in each
 of its color channels; and a tool to pixelate an image depending on a level of pixelization desired by the user.
 
-###Increase and decrease contrast tool:
+### Increase and decrease contrast tool:
 
 This is the code in C:
 
