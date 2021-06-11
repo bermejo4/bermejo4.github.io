@@ -30,7 +30,8 @@ The tool is divided in four main regions:
 - Export button: to export the image to another frame to save it or do other operations with it.  
 
 The formula applied to make the contrast transformation is: 
-<div align="center"><img src="/images/projectsImages/biomedicProjects/ContrastFormula" alt="PContrast Formula" width="500"/></div>
+<div align="center">
+<img src="/images/projectsImages/biomedicProjects/ContrastFormula" alt="PContrast Formula" width="100%"/></div>
 
 To access to de the code in Github:  [Increase and decrease contrast code in Github Link](https://github.com/cossorzano/CEUImgProc/blob/master/CeuL4_IncreaseDecreaseContrastApp.mlapp)
 
