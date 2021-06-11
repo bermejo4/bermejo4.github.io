@@ -25,7 +25,7 @@ title: Biomedical Engineering & Bioinformatics Index
     font-weight: 600;
     font-family: serif;
 	color: #b20400;
-"> ➡️ Digital Image Treatment Tool</a>
+"> ➡️ Digital Image Treatment Application</a>
 
 *****
 *****
