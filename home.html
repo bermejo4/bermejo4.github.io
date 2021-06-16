@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home- The Dark Red Tower</title>
+    <link rel="icon" href="/images/Th3RedTower.png">
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    <meta name="description" content="The Dark Red Tower, Tech-blog written by Jaime Bermejo" />
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@JaimeBermejo12">
+    <meta name="twitter:title" content="The Dark Red Tower">
+    <meta name="twitter:description" content="The Dark Red Tower, Tech-blog written by Jaime Bermejo">
+    <meta name="twitter:creator" content="@JaimeBermejo12">
+
+
+    <!--<meta name="twitter:image" content= "https://bermejo4.github.io/images/Th3RedTower.png" >-->
+    <meta name="twitter:image" content="https://bermejo4.github.io/images/Th3RedTower.png" style="
+        width: 201px;
+    ">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="The Dark Red Tower" />
+    <!--<meta property="og:type" content="website" />-->
+    <!--<meta property="og:url" content=" https://bermejo4.github.io/" />-->
+    <meta name="image" property="og:image" content="/images/preview.png">
+    <meta property="og:image:secure_url" content="https://bermejo4.github.io/images/Th3RedTower.png"/>
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="621px" />
+    <meta property="og:image:height" content="720px" />
+    <meta property="og:image:alt" content="A red Tower" />
+    <meta property="og:description" content="The Dark Red Tower, Tech-blog written by Jaime Bermejo" />
+
+    <meta name="author" content="Jaime Bermejo">
+
+
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="The Dark Red Tower - Tech-Blog by Jaime Bermejo" href="/feed.xml" />
+</head>
+<body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <!--<a href="/" class="site-avatar"><img src="https://avatars0.githubusercontent.com/u/46527694?s=460&u=9f261437e0cdb15877d6a71af34ba59376f8ea78&v=4" /></a>-->
+          <a href="/" class="site-avatar"><img class=avat src="/images/Th3RedTower.png" /></a>
+          <div class="site-info">
+            <h1 class="site-name"><a href="/">The Dark Red Tower</a></h1>
+            <p class="site-description">Tech-Blog by Jaime Bermejo</p>
+          </div>
+
+          <nav>
+            <a href="/">Blog</a>
+            <a href="/about">About</a>
+          </nav>
+        </header>
+      </div>
+    </div>
+
+<div class="topnav">
+  <a class="active" href="/home.html">Home</a>
+  <a href="/projects">Projects</a>
+  <a href="/code.html" >Code</a>
+  <a href="/about">About</a>
+</div>
+<div class="HomeButtons">
+    <a href="/projects.html"><button class="button button1">Projects</button></a>
+    <a href="/code.html"><button class="button button2">Code</button></a>
+</div>
+<div>
+    <img src="/images/Th3RedTower.png" alt="_config.yml" style="
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 50%;
+">
+</div>
+<style>
+.button {
+  padding: 50px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+    margin-bottom: 2%;
+  width: 80%;
+}
+
+html, body {
+  height: 100%;
+}
+
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  min-width: 300px;
+  min-height: 60px;
+  font-family: monospace;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: white;
+  background: linear-gradient(180deg, rgb(136 5 5) 50%, rgb(0, 0, 0) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(186, 198, 197, 0.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: 300px;
+  min-height: 125px;
+  border: 6px solid #fcfcfc;
+  border-style: double;
+  box-shadow: 0 0 60px rgba(222, 224, 223, 0.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+  width: 100%
+}
+
+.button:hover, .button:focus {
+  color: grey;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid rgba(89, 99, 111, 0.72);
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 2.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 900px;
+    height: 400px;
+    opacity: 0;
+  }
+}
+</style>
+</body>
+</html>
