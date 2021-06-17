@@ -76,7 +76,7 @@
     <a href="/projects.html"><button class="button button1">Projects</button></a>
     <a href="/code.html"><button class="button button2">Code</button></a>
 </div>
-<div>
+<div class="imagenTorre">
     <img src="/images/Th3RedTower.png" alt="_config.yml" style="
     display: block;
     margin-right: auto;
@@ -170,6 +170,19 @@ button::after {
 button:hover::after, button:focus::after {
   animation: none;
   display: none;
+}
+
+.imagenTorre{
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 786px) {
+.button::after{
+    animation: none;
+}
+.imagenTorre{
+  margin-top: 40px;
+}
 }
 
 @keyframes ring {
