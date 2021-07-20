@@ -24,7 +24,7 @@ title: Arduino - Raspberry Index
     margin-left: auto;
     margin-top: 20px;
 ">
-<img src="/images/RaspArdu.png" alt="health" title="health" width="50%" style="
+<img src="/images/RaspArdu.png" alt="Rasp_Ardu_Image" title="Rasp_ardu_image" width="50%" style="
     display: block;
     margin-left: auto;
     margin-right: auto;

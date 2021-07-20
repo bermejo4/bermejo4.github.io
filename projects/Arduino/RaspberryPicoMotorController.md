@@ -19,6 +19,7 @@ To do it I have needed the following components:
 the computer and splice with the board.
 - A PCB board with 30x18 dots.
 - A USB serial wire to connect the raspberry to the computer and run the program in it.
+- Tin and a Tin solder
 
 If you are new in the micropython world, I would recommend you install Thonny IDE to run the programs of micropython. 
 I have tried to use other IDEs, like my favourite python IDE, Pycharm, but sometimes Pycharm can't find some microPython 
