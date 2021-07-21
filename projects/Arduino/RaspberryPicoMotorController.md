@@ -92,3 +92,15 @@ while True:
 #bermejo4
 
 ````
+
+The next image shows the final result: 
+<div class="img-contenedor">
+<img src="/images/projectsImages/RaspArdu/ImagenTodoEnsamblado.jpg" alt="ResultadoFinal" title="Resultado Final" width="100%" style="
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+">
+</div> 
