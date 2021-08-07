@@ -9,7 +9,7 @@ title: Arduino - Raspberry Index
     font-weight: 600;
     font-family: serif;
 	color: #b20400;
-"> ➡️ Raspberry Pico Motor Controller </a>
+"> ➡️ Raspberry Pi Pico Motor Controller </a>
 
 *****
 <div style="

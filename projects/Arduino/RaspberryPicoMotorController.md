@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Raspberry Pico Motor Controller
+title: Raspberry Pi Pico Motor Controller
 ---
 *****
 This project form part of the section of myself projects that I have in mind.  
