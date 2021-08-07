@@ -3,7 +3,7 @@ layout: post
 title: Raspberry Pi Pico Configuration
 ---
 *****
-Start a project with raspberry Pico is very easy.You only must follow the next steps:
+Start a project with raspberry Pico is very easy. You only have to follow the next steps:
 
 1. Install Thonny IDE.
 2. Open Thonny IDE.
@@ -26,6 +26,9 @@ while True:
     led.low()
     time.sleep(1)
 ````
+
+If the led embedded into the board blink with a second difference everything is correctly. Otherwise revise again all the steps. 
+
 Figure 1:
 <div class="img-contenedor">
 <img src="/images/projectsImages/RaspArdu/InstallInitialConfigurationRaspPico.png" alt="InstallationWindow" title="InstallationWindow" width="100%" style="
