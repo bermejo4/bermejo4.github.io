@@ -12,6 +12,15 @@ title: Arduino - Raspberry Index
 
 *****  
 
+ <a href="/projects/Arduino/RaspberryPicoAndESP8266" style="
+    font-size: 27px;
+    font-weight: 600;
+    font-family: serif;
+	color: #b20400;
+"> ➡️ Raspberry Pi Pico & ESP8266 WiFi Module </a>
+
+*****  
+
  <a href="/projects/Arduino/RaspberryPicoMotorController" style="
     font-size: 27px;
     font-weight: 600;
@@ -20,6 +29,9 @@ title: Arduino - Raspberry Index
 "> ➡️ Raspberry Pi Pico Motor Controller </a>
 
 *****
+
+*****
+
 <div style="
     background-color: darkred;
     border-radius: 20px;
