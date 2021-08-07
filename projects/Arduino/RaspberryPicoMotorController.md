@@ -48,7 +48,7 @@ The following image explain how elements are disposed schematized:
 ">
 </div>  
 
-Below we can find the main code in matlab:
+Below we can find the main code in micropython:
 ````python
 from machine import Pin, PWM
 from time import sleep

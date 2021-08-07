@@ -3,6 +3,14 @@ layout: post
 title: Arduino - Raspberry Index 
 ---
 *****
+ <a href="/projects/Arduino/ConfigurationRaspberryPico" style="
+    font-size: 27px;
+    font-weight: 600;
+    font-family: serif;
+	color: #b20400;
+"> ➡️ Raspberry Pi Pico Configuration </a>
+
+*****  
 
  <a href="/projects/Arduino/RaspberryPicoMotorController" style="
     font-size: 27px;
