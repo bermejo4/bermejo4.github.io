@@ -26,6 +26,8 @@ Connections:
   </tr>
 </table>
 
+****
+
 <div class="img-contenedor">
 <img src="/images/projectsImages/RaspArdu/PicoEsp8266_bb.jpg" alt="Picobb" title="Picobb" width="100%" style="
     width: 75%;
@@ -47,7 +49,28 @@ Connections:
 ">
 </div>
 
-* Then, open Arduino IDE. (In this case we are going to use C and Arduino IDE to open a communication with the ESP8266 board)
+*****
+
+* Then, open Arduino IDE. (In this case we are going to use C and Arduino IDE to open a communication with the ESP8266 
+  board). We are going to select Raspberry Pi Pico Board into the tools menu (to allow this board we have to download it previously from 
+  the board manager, where we can find the board if we have put into preferences>Urls the following link: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json), 
+  and put the debug port into "Serial 1".
+  
+<div class="img-contenedor">
+<img src="/images/projectsImages/RaspArdu/PlacaHerramientas.png" alt="IdeTools" title="IdeTools" width="100%" style="
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+">
+</div>
+
+****
+
+* Copy and paste the following code into your Arduino Ide and click into Run or Upload.
+  
 ```c
 void setup() {
   Serial.begin(9600);
@@ -68,3 +91,33 @@ void loop() {
   }
 }
 ```
+The output is the next one. Don't be afraid if some words are in red, this is normal, these messages are informative messages. 
+
+<div class="img-contenedor">
+<img src="/images/projectsImages/RaspArdu/SalidaDeEjecucion.png" alt="IdeTools" title="IdeTools" width="100%" style="
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+">
+</div>
+
+****
+* Open the Serial Terminal, and set the parameters to "both NL & CR" and in 9600 baudios. After that write "AT". If the 
+  following message is "OK" everything work correctly, otherwise, no response, Fail or characters unreadable means that
+  somenthing haven't been configured well.
+  
+<div class="img-contenedor">
+<img src="/images/projectsImages/RaspArdu/Serial.png" alt="IdeTools" title="IdeTools" width="100%" style="
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    border-radius: 7px;
+">
+</div>
+
+****
