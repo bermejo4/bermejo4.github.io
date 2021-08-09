@@ -30,6 +30,15 @@ title: Arduino - Raspberry Index
 
 *****
 
+ <a href="/projects/Arduino/RouterWithRaspberryPi" style="
+    font-size: 27px;
+    font-weight: 600;
+    font-family: serif;
+	color: #b20400;
+"> ➡️ Router with a Raspberry Pi </a>
+
+*****
+
 *****
 
 <div style="
