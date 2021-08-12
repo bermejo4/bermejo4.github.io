@@ -3,40 +3,54 @@ layout: post
 title: Router with a Raspberry Pi
 ---
 *****
-Start a project with raspberry Pico is very easy. You only have to follow the next steps:
+Is very easy turn your Raspberry into a router or an access point.  
+In some tutorials (that in many cases they didn't work), they change configuration files from raspberry to transform your raspberry into
+a router, but in my case I use a software (RaspAp) that is installed with some configuration questions and in few minutes is working.
+It's true that if the tutorial that overwite some files and change totally other works, our router will be more configurable, but the 
+option that I choose is very configurable too and incorporate a graphical user interface to make the experience more comfortable.  
 
-1. Install Thonny IDE.
-2. Open Thonny IDE.
-3. Connect the Raspberry Pi Pico to the Computer.
-4. Thonny IDE detect it automatically and it shows a installation window to install or update Micropython into the
-Raspberry Pi Pico. Like in the image of the bottom (Figure 1):
-5. Follow the installation steps of the window and click in install.
-6. Sometimes a window from the Operation System appears indicating that the unit disc have been ejected incorrectly. This
-message can be ignored.
-7. Run the following program into the Thonny IDE to test that everything work correctly.
-
-````python
-from machine import Pin
-import time
-led = Pin(25, Pin.OUT)
-
-while True:
-    led.high()
-    time.sleep(1)
-    led.low()
-    time.sleep(1)
+You only have to open the terminal and write the following:
+* First commands are to update the raspberry:
+````bash
+sudo apt-get update
+sudo apt-get full-upgrade
+sudo reboot
 ````
 
-If the led embedded into the board blink with a second difference everything is correctly. Otherwise revise again all the steps. 
+* Once everything is updated we open again the terminal after the reboot and write: 
+````bash
+curl -sL https://install.raspap.com | bash
+````
 
-Figure 1:
-<div class="img-contenedor">
-<img src="/images/projectsImages/RaspArdu/InstallInitialConfigurationRaspPico.png" alt="InstallationWindow" title="InstallationWindow" width="100%" style="
-    width: 75%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    border-radius: 7px;
-">
-</div> 
+
+Is very important to have more than one network interface, for example, eth0 to internet input, and wlan0 to the other network that 
+we are creating. Or we can add other internet interface, for example wlan1, inserting a network interface controller in one usb port of 
+our raspberry.
+
+After the RaspAp installation conclude we open internet and write: localhost  
+A small window will be opened asking user and password. You have to write:
+* User: admin
+* Password: secret  
+After that the graphical user interface is opened, and to configure an access point you have to go to "Hotspot" menu in the left-side bar.
+  
+Configure the following:  
+
+In "Basic settings":
+- Interface: wlan0
+- SSID: "Introduce the name that you want for your network, for example RaspNetwork"
+- Wireless Mode: 802.11g-2.4 GHz, (Depend on what you want you can change it)
+- Channel: 1
+
+In "Security":
+- Security type: "WPA2"
+- Encryption type: "CCMP"
+- PSK: "Here introduce the password that you want for your network"
+
+In "Advanced":
+- Bridged AP mode: ON
+- WiFi client AP mode: ON
+
+Once everything were configurated click in "Save settings".
+
+If something doesn't work reboot the Raspberry and revise the steps.  
+For more documentation visit the official website of RaspAp.
