@@ -39,6 +39,14 @@ title: Arduino - Raspberry Index
 
 *****
 
+ <a href="/projects/Arduino/StaticIpRaspberry" style="
+    font-size: 27px;
+    font-weight: 600;
+    font-family: serif;
+	color: #b20400;
+"> ➡️ Static Ip Address in a Raspberry for IoT</a>
+
+*****
 *****
 
 <div style="
